@@ -1,13 +1,12 @@
 import streamlit as st
 import cv2
 from PIL import Image           # 画像処理ライブラリ
-#from matplotlib import pyplot as plt # データプロット用ライブラリ
 import numpy as np              # データ分析用ライブラリ
 import pytesseract              # tesseract の python 用ライブラリ
 
 def main():
     st.title('文字認識の実験')
-    col1, col2 ,col3, col4 = st.columns([3,1,1,1])
+    col1, col2 ,col3 = st.columns([3,1,1])
     KEI = None
     with col1:
         uploaded_file = st.file_uploader("画像ファイルを選択してアップロード")
@@ -20,8 +19,8 @@ def main():
             LNG =  st.selectbox("言語選択",['jpn','eng'])
         with col3:
             KEI = st.checkbox('線削除')
-        with col4:
-            OCR = st.checkbox('OCR実行')
+        #with col4:
+        #    OCR = st.checkbox('OCR実行')
 
         ret, img_thresh = cv2.threshold(img, th2, 255, cv2.THRESH_BINARY)
         im_h = cv2.hconcat([img, img_thresh])
