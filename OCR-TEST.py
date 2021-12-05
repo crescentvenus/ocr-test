@@ -1,7 +1,7 @@
 import streamlit as st
 import cv2
 from PIL import Image           # 画像処理ライブラリ
-from matplotlib import pyplot as plt # データプロット用ライブラリ
+#from matplotlib import pyplot as plt # データプロット用ライブラリ
 import numpy as np              # データ分析用ライブラリ
 import pytesseract              # tesseract の python 用ライブラリ
 
