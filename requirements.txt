@@ -1,6 +1,6 @@
 streamlit
 Pillow
-matplotli
+matplotlib
 numpy
 pytesseract
 opencv-python
