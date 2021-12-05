@@ -3,7 +3,6 @@ import cv2
 from PIL import Image           # 画像処理ライブラリ
 from matplotlib import pyplot as plt # データプロット用ライブラリ
 import numpy as np              # データ分析用ライブラリ
-import os                       # os の情報を扱うライブラリ
 import pytesseract              # tesseract の python 用ライブラリ
 import glob
 
