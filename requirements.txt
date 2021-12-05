@@ -1,6 +1,6 @@
 streamlit
-PIL
+Pillow
 matplotli
 numpy
 pytesseract
-cv2
+opencv-python
