@@ -1,3 +1,4 @@
+pip
 streamlit
 Pillow
 numpy
