@@ -1,0 +1,6 @@
+streamlit
+cv2
+PIL
+matplotli
+numpy
+pytesseract              # tesseract の python 用ライブラリ
