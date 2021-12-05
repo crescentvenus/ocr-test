@@ -7,6 +7,7 @@ import pytesseract              # tesseract の python 用ライブラリ
 def main():
     st.title('文字認識の実験')
     col1, col2 ,col3 = st.columns([3,1,1])
+    OCR = False
     KEI = None
     with col1:
         uploaded_file = st.file_uploader("画像ファイルを選択してアップロード")
