@@ -4,7 +4,6 @@ from PIL import Image           # 画像処理ライブラリ
 from matplotlib import pyplot as plt # データプロット用ライブラリ
 import numpy as np              # データ分析用ライブラリ
 import pytesseract              # tesseract の python 用ライブラリ
-import glob
 
 def main():
     st.title('文字認識の実験')
