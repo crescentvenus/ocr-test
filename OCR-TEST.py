@@ -8,7 +8,7 @@ def main():
     st.title('文字認識の実験')
     col1, col2 ,col3 = st.columns([3,1,1])
     OCR = False
-    KEI = None
+    KEI = False
     with col1:
         uploaded_file = st.file_uploader("画像ファイルを選択してアップロード")
     if uploaded_file is not None:
